@@ -2,7 +2,7 @@
 
 # Rinin Abraham
 
-`// junior @ UTD · backend engineer · graduating may 2027`
+`// senior @ UTD · backend engineer · graduating dec 2027`
 
 </div>
 
