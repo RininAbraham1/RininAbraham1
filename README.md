@@ -37,7 +37,7 @@ Interactive visualizer for sorting and graph algorithms — built to make the ab
 
 ### now
 
-🟢 &nbsp;Starting internship at Pluralsight — May 18, 2025
+🟢 &nbsp;Starting internship at Pluralsight — May 18, 2026
 
 🟣 &nbsp;Mastering Docker networking & fullstack integration on TicketIQ
 
