@@ -72,11 +72,13 @@ npx deepspace deploy
 ```
 Then play one real game and check the logs (`npx deepspace logs`).
 
-### Redesign: done
-- New "highlighter" theme: navy ink background, one highlighter colour per answer (A yellow, B pink, C green, D blue), chunky pressable buttons, cream "receipt" card for the source quote with a highlighter swipe at reveal.
-- Type: Baloo 2 (headlines) + Nunito (everything else), both rounded.
-- Mascot: the footnote asterisk (`src/components/Mascot.tsx`), pure SVG with moods: idle, think (questions being written / question open), happy (right), sad (wrong / failed), wow (no answer), cheer (final scores).
-- Checks after the redesign: type-check, lint, 26 unit tests, all server-rule checks, and the three-browser UI run (no console errors). `SHOTS_OUT=<dir> bash e2e-local/run.sh` now keeps the screenshots.
+### Redesign: done (second pass, "zine")
+- Electric ultramarine stage with a halftone dot screen; cream sticker-cards with thick ink outlines and hard offset shadows; four highlighter answer colours (A yellow, B pink, C green, D cyan).
+- Type: Lilita One (outlined display titles), Nunito (body), Space Mono (receipts).
+- Landing: scrolling yellow marquee, the mascot surrounded by floating answer stickers, and "how it works" told as a till receipt (replaces the numbered 1-4 cards).
+- Game: big countdown sticker, answer tiles that tilt when you lock in, a slapped-on "Correct! / Nope! / Too slow!" stamp, the source quote on a torn-edge receipt, and a podium for final scores.
+- Mascot: the footnote asterisk (`src/components/Mascot.tsx`) with moods idle / think / happy / sad / wow / cheer.
+- Checks: type-check, lint, 26 unit tests, all server-rule checks, three-browser UI run with no console errors. `SHOTS_OUT=<dir> bash e2e-local/run.sh` keeps screenshots.
 
 ### Figma
 - The connector sign-in never worked in cloud sessions. Instead, a Figma personal access token is saved on the "RininAbraham1 (DeepSpace)" environment for `api.figma.com` (read files, export frames, comments). No Figma file was used for this redesign.
