@@ -72,17 +72,14 @@ npx deepspace deploy
 ```
 Then play one real game and check the logs (`npx deepspace logs`).
 
-### Redesign
-- Feedback: the current cream-paper / serif / red-accent look reads as AI-generated.
-- Proposed direction (not started): an **asterisk mascot** (the footnote mark) that reacts during the game, plus a **highlighter palette** (navy ink with yellow, pink and green), a different color per answer, and a highlighter swipe across the source quote at reveal.
+### Redesign: done
+- New "highlighter" theme: navy ink background, one highlighter colour per answer (A yellow, B pink, C green, D blue), chunky pressable buttons, cream "receipt" card for the source quote with a highlighter swipe at reveal.
+- Type: Baloo 2 (headlines) + Nunito (everything else), both rounded.
+- Mascot: the footnote asterisk (`src/components/Mascot.tsx`), pure SVG with moods: idle, think (questions being written / question open), happy (right), sad (wrong / failed), wow (no answer), cheer (final scores).
+- Checks after the redesign: type-check, lint, 26 unit tests, all server-rule checks, and the three-browser UI run (no console errors). `SHOTS_OUT=<dir> bash e2e-local/run.sh` now keeps the screenshots.
 
-### Figma status
-- The Figma connector shows as added on claude.ai.
-- In this session, the network block is fixed, but Figma still **needs sign-in/authorization** and its tools aren't loaded.
-- Next step: confirm Figma shows **Connected** on claude.ai (finish the sign-in if prompted), then open a **new Claude Code conversation** on this repo using the "RininAbraham1 (DeepSpace)" environment, and share the Figma file link to follow.
-
-### Handoff prompt for the new session
-> Continue the DeepSpace build exercise on branch `claude/deepspace-build-exercise-yg40ah`. The app is in `cited/` (read `cited/README.md` and `SESSION_SUMMARY.md`). Redesign the UI so it doesn't look AI-generated: new palette and type, plus a mascot. Use my Figma file [link] as the reference. Re-run `cited/e2e-local/run.sh` (with `PW_CHROMIUM_PATH=/opt/pw-browsers/chromium`) and show me screenshots.
+### Figma
+- The connector sign-in never worked in cloud sessions. Instead, a Figma personal access token is saved on the "RininAbraham1 (DeepSpace)" environment for `api.figma.com` (read files, export frames, comments). No Figma file was used for this redesign.
 
 ### Writeup
 `cited/README.md` has the draft (what was built, integrations, tradeoff, verification, next steps). Write the **"what I verified myself"** part in your own words after testing the live app.
