@@ -53,9 +53,9 @@ Interactive visualizer for sorting and graph algorithms — built to make the ab
 
 ### github stats
 
-![Rinin's GitHub stats](https://github-readme-stats.vercel.app/api?username=RininAbraham1&show_icons=true&theme=default&hide_border=true&title_color=c77dff&icon_color=52b788&text_color=444441)
+![Rinin's GitHub stats](assets/stats.svg)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RininAbraham1&layout=compact&hide_border=true&title_color=c77dff&text_color=444441)
+![Top Languages](assets/langs.svg)
 
 ---
 
