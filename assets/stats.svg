@@ -21,16 +21,16 @@
 <text class="value" x="390" y="62" text-anchor="end">1</text>
 <circle class="icon" cx="31" cy="83" r="4"/>
 <text class="label" x="45" y="88">Commits (last year):</text>
-<text class="value" x="390" y="88" text-anchor="end">90</text>
+<text class="value" x="390" y="88" text-anchor="end">106</text>
 <circle class="icon" cx="31" cy="109" r="4"/>
 <text class="label" x="45" y="114">Pull Requests:</text>
-<text class="value" x="390" y="114" text-anchor="end">18</text>
+<text class="value" x="390" y="114" text-anchor="end">19</text>
 <circle class="icon" cx="31" cy="135" r="4"/>
 <text class="label" x="45" y="140">Merged PRs:</text>
 <text class="value" x="390" y="140" text-anchor="end">17</text>
 <circle class="icon" cx="31" cy="161" r="4"/>
 <text class="label" x="45" y="166">Issues:</text>
-<text class="value" x="390" y="166" text-anchor="end">1</text>
+<text class="value" x="390" y="166" text-anchor="end">0</text>
 <circle class="icon" cx="31" cy="187" r="4"/>
 <text class="label" x="45" y="192">Contributed to (last year):</text>
 <text class="value" x="390" y="192" text-anchor="end">2</text>
