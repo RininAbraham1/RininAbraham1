@@ -37,7 +37,7 @@ JavaFX app that animates sorting (bubble, merge, quick) and pathfinding (BFS, DF
 
 ### now
 
-🟢 &nbsp;Interned at Pluralsight — May–Aug 2026
+🟢 &nbsp;Previously: software engineering intern at Pluralsight (May–Aug 2026)
 
 🟣 &nbsp;Mastering Docker networking & fullstack integration on TicketIQ
 
