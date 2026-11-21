@@ -33,6 +33,10 @@ Fullstack ticketing system — multi-service Docker networking, Flask APIs, and 
 JavaFX app that animates sorting (bubble, merge, quick) and pathfinding (BFS, DFS, Dijkstra, A*) step by step — built to make the abstract concrete.
 `Java` `JavaFX` `Algorithms`
 
+**[Album Score Ranker](https://github.com/RininAbraham1/Album-Score-Ranker)**
+Flask API that ranks albums based on user ratings.
+`Flask` `Python` `REST APIs`
+
 ---
 
 ### now
