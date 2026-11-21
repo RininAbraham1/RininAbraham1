@@ -30,8 +30,8 @@ Fullstack ticketing system — multi-service Docker networking, Flask APIs, and 
 `Flask` `Docker` `Python` `WIP`
 
 **[Algorithm Visualizer](https://github.com/RininAbraham1/Algorithm-Visualizer)**
-Interactive visualizer for sorting and graph algorithms — built to make the abstract concrete.
-`Python` `Visualization` `Algorithms`
+JavaFX app that animates sorting (bubble, merge, quick) and pathfinding (BFS, DFS, Dijkstra, A*) step by step — built to make the abstract concrete.
+`Java` `JavaFX` `Algorithms`
 
 ---
 
